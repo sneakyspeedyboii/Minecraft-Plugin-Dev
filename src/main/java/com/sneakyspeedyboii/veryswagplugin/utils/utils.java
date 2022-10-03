@@ -39,6 +39,15 @@ public class utils {
         return stack;
     }
 
+    public static ItemStack blacklistsingitem(ItemStack item) {  //my own code i just stuck it in here for ease of use
+        ItemMeta meta = item.getItemMeta();
+        NamespacedKey key = new NamespacedKey(Bukkit.getPluginManager().getPlugin("veryswagplugin"), "verynicekey");
+        meta.getPersistentDataContainer().set(key, PersistentDataType.STRING, "Veryswagplugin - noinv");
+        ItemStack stack = new ItemStack(item.getType(), item.getAmount());
+        stack.setItemMeta(meta);
+        return stack;
+    }
+
     public static ItemStack blacklistitemamount(ItemStack item, int amount) {  //my own code i just stuck it in here for ease of use
         ItemMeta meta = item.getItemMeta();
         NamespacedKey key = new NamespacedKey(Bukkit.getPluginManager().getPlugin("veryswagplugin"), "verynicekey");
