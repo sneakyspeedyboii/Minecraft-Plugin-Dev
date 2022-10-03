@@ -226,7 +226,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         magnet = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("itemmagrec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -261,7 +261,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         reaper = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("reaperscytherec"), item);
         nsr.shape("ABC"
                 , " E "
                 , "G  ");
@@ -297,7 +297,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         golem = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("golemkniferec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -333,7 +333,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         anduril = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("andurilrec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -364,7 +364,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         emans = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("endermandaggerrec"), item);
         nsr.shape("ABC"
                 , "D F"
                 , "GHI");
@@ -423,7 +423,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         bbb = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("springloadedbootsrec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -459,7 +459,7 @@ public class itemmanager {
         pm.setBasePotionData(pd);
         pot.setItemMeta(pm);
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("pekkachestplaterec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -500,7 +500,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         tchest = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("tuxchestrec"), item);
         nsr.shape("A C"
                 , "DEF"
                 , "GHI");
@@ -541,7 +541,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         tlegg = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("tuxlegkrec"), item);
         nsr.shape("ABC"
                 , "D F"
                 , "G I");
@@ -582,7 +582,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         tboot = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("tuxbootrec"), item);
         nsr.shape("ABC"
                 , "D F"
                 , "   ");
@@ -634,7 +634,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         thoraxe= item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("thoraxerec"), item);
         nsr.shape(" B "
                 , "D F"
                 , "GHI");
@@ -672,7 +672,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         atomphaser = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("aphaserrec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -704,7 +704,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         spic = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("spicaxerec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
@@ -735,7 +735,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         tenacity = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("tenacityrec"), item);
         nsr.shape(" B "
                 , "DE "
                 , " H ");
@@ -807,7 +807,7 @@ public class itemmanager {
         item.setItemMeta(meta);
         crown = item;
 
-        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("neowstickrec"), item);
+        ShapedRecipe nsr = new ShapedRecipe(NamespacedKey.minecraft("ccrownrec"), item);
         nsr.shape("ABC"
                 , "DEF"
                 , "GHI");
